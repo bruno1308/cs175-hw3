@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:layout_gravity="center"  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name:" />
+
+        <EditText
+            android:id="@+id/txtFindUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnStats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Get Statistics" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fly Tapper" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slider Master" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some Game" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtUserHighScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My High Score" />
+
+            <TextView
+                android:id="@+id/myHighFly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/myHighSlider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/myHighSome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtOverallHighScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O.A. High Score" />
+
+            <TextView
+                android:id="@+id/oaHighFly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/oaHighSlider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+            <TextView
+                android:id="@+id/oaHighSome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <TextView
+                android:id="@+id/txtOverallAvgScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O.A. Avg Score" />
+
+             <TextView
+                 android:id="@+id/oaAvgFly"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+             <TextView
+                 android:id="@+id/oaAvgSlider"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+             <TextView
+                 android:id="@+id/oaAvgSome"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <TextView
+                android:id="@+id/txtMyAvgLastHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Avg Last Hour" />
+
+             <TextView
+                 android:id="@+id/myAvgHourFly"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+             <TextView
+                 android:id="@+id/myAvgHourSlider"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+             <TextView
+                 android:id="@+id/myAvgHourSome"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <TextView
+                android:id="@+id/txtMyAvgLastWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Avg Last Week" />
+
+             <TextView
+                 android:id="@+id/myAvgWeekFly"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+             <TextView
+                 android:id="@+id/myAvgWeekSlider"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+             <TextView
+                 android:id="@+id/myAvgWeekSome"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <TextView
+                android:id="@+id/txtMyAvgLastMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Avg Last Month" />
+
+             <TextView
+                 android:id="@+id/myAvgMonthFly"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 
+                 android:text="-" />
+
+             <TextView
+                 android:id="@+id/myAvgMonthSlider"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+             <TextView
+                 android:id="@+id/myAvgMonthSome"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="-" />
+            
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>
