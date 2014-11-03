@@ -35,6 +35,14 @@
             android:name=".FlyActivity"
             android:label="@string/title_activity_fly" >
         </activity>
+        <activity
+            android:name=".SliderActivity"
+            android:label="@string/title_activity_slider" >
+        </activity>
+        <activity
+            android:name=".TyperActivity"
+            android:label="@string/title_activity_typer" >
+        </activity>
     </application>
 
 </manifest>

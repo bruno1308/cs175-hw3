@@ -23,10 +23,10 @@
             android:text="Slider Master" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnTyper"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Typer Master" />
 
     </LinearLayout>
 

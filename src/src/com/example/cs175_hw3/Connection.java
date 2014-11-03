@@ -5,52 +5,88 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.nio.CharBuffer;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 
 import android.os.AsyncTask;
 import android.util.Log;
 
-public class Connection extends AsyncTask<String, Void, String> {
 
+//Handle the transaction between client and server
+public final class Connection extends AsyncTask<String, Void, String> {
+ 
 	public final String IP;
 	public final int PORT;
-	String response="";
+	static String  response="";
+	public static int sync=1;
 	String question;
+	Socket socket = null;
+	PrintWriter writer = null;
+	//Queue of requests the client made
+	final static BlockingQueue<String> queue = new LinkedBlockingQueue<String>();
+    BufferedReader reader =null;
 	Connection(String addr, int port){
-		   this.IP = addr;
-		   this.PORT = port;
+		//If you will try in your own network, ignore the parameters and set the IP
+		//and port manually HERE, This is my server that MIGHT be off 
+		   this.IP = "54.86.35.196";
+		   this.PORT = 7890;	         
+	         
+	}
+	public static Connection getInstance(){
+		return getInstance();
 	}
 	@Override
 	protected String doInBackground(String... arg0) {
-		
-		 Socket socket = null;
-	      BufferedWriter writer = null;
-	      BufferedReader reader =null;
-	      BufferedReader reader2 =null;
 
 	      try{
-	         socket = new Socket(IP, PORT);
-	         reader = new BufferedReader(
-	            new InputStreamReader(socket.getInputStream()));
-
-	         writer = new BufferedWriter(
-	            new OutputStreamWriter(socket.getOutputStream()));
-	         
-	        	Log.i("Server", reader.readLine());
-		        
-	         String s = arg0[0] + "\n";
-	         writer.write(s);
-	         writer.flush();
-	         reader2 = new BufferedReader(
-	 	            new InputStreamReader(socket.getInputStream()));
-	         String oneline;
-	        response+=reader2.readLine();
-	        Log.i("Server", response);
-	         
-	         return response;
+	    	  //Create socket and reader/writer
+	    	  socket = new Socket(IP, PORT);
+	    	  System.out.println("Socket created");
+	 	        writer = new PrintWriter(socket.getOutputStream(),true);
+	 	        reader = new BufferedReader(
+    		            new InputStreamReader(socket.getInputStream()));
+	 	        String fromUser="" ,fromServer ="";
+	 	       CharBuffer cb = CharBuffer.allocate(1000);
+	 	        while(true){
+	 	        		try {
+	 	        			//sync synchronizes the network to tell when the
+	 	        			//reader is ready to be read
+	 	        			sync =1;
+	 	        			while(reader.ready()){
+	 	        				/*Server sent us something!
+	 	        				sync = 0 means we are busy reading,
+	 	        				don't try to get data yet!*/
+	 	        				sync =0;
+	 	        				reader.read(cb);
+	 	        				cb.flip();
+	 	        				String msg = cb.toString();
+								fromServer = msg;
+								Log.i("Server", msg);
+								
+								response = response+msg;
+								//System.out.println("Server: " + fromServer);
+								//if(fromServer.equals("") || fromServer.equals("Fingercise Server")) break;			
+							}
+							if(!queue.isEmpty()){
+								//If client wants something, send it to server
+								sync =0;
+								fromUser = queue.take();
+				 	        	 writer.println(fromUser);
+						         System.out.println("Request sent!");	
+							}	
+							} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+	 	        	 
+	 	        }
 	      }
+	
 	      catch (UnknownHostException e) {
 	    	    // TODO Auto-generated catch block
 	    	    e.printStackTrace();
@@ -59,27 +95,14 @@ public class Connection extends AsyncTask<String, Void, String> {
 	    	    // TODO Auto-generated catch block
 	    	    e.printStackTrace();
 	    	    response = "IOException: " + e.toString();
-	    	   }finally{
-	    	    if(socket != null){
-	    	     try {
-	    	      socket.close();
-	    	     } catch (IOException e) {
-	    	      // TODO Auto-generated catch block
-	    	      e.printStackTrace();
-	    	     }
-	    	    }
 	    	   }
 	    	   return null;
 
 	}
 	@Override
   protected void onPostExecute(String result) {
-   
+
   }
 	
-	public void sendMessage(String msg){
-			this.execute(msg);
-
-	}
 
 }
