@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.cs175_hw3;
+package edu.sjsu.cs175_hw3;
 
 public final class R {
     public static final class anim {
@@ -1077,11 +1077,12 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int fly=0x7f020057;
-        public static final int ic_launcher=0x7f020058;
-        public static final int ninja=0x7f020059;
-        public static final int sword=0x7f02005a;
-        public static final int thumbs=0x7f02005b;
+        public static final int buttonshape=0x7f020057;
+        public static final int fly=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
+        public static final int ninja=0x7f02005a;
+        public static final int sword=0x7f02005b;
+        public static final int thumbs=0x7f02005c;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1095,16 +1096,15 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05008e;
+        public static final int action_settings=0x7f050086;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int btnConnect=0x7f050055;
-        public static final int btnFly=0x7f050066;
-        public static final int btnOK=0x7f05008d;
-        public static final int btnSlider=0x7f050067;
-        public static final int btnStats=0x7f05006b;
-        public static final int btnTyper=0x7f050068;
+        public static final int btnFly=0x7f05005e;
+        public static final int btnOK=0x7f050085;
+        public static final int btnSlider=0x7f05005f;
+        public static final int btnStats=0x7f050063;
+        public static final int btnTyper=0x7f050060;
         public static final int button1=0x7f050042;
         public static final int button10=0x7f05004e;
         public static final int button11=0x7f05004f;
@@ -1125,47 +1125,43 @@ containing a value of this type.
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050031;
         public static final int end=0x7f050013;
-        public static final int exercise=0x7f050061;
+        public static final int exercise=0x7f050059;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002d;
-        public static final int frag_exercise=0x7f05005f;
-        public static final int frag_stats=0x7f050060;
+        public static final int frag_exercise=0x7f050057;
+        public static final int frag_stats=0x7f050058;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002b;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
         public static final int image1=0x7f050029;
-        public static final int input=0x7f050053;
-        public static final int ip=0x7f050051;
         public static final int linearLayout1=0x7f05003d;
-        public static final int linearLayout2=0x7f05005b;
+        public static final int linearLayout2=0x7f050053;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f05002a;
         public static final int middle=0x7f050012;
-        public static final int myAvgHourFly=0x7f05007e;
-        public static final int myAvgHourSlider=0x7f05007f;
-        public static final int myAvgHourSome=0x7f050080;
-        public static final int myAvgMonthFly=0x7f050088;
-        public static final int myAvgMonthSlider=0x7f050089;
-        public static final int myAvgMonthSome=0x7f05008a;
-        public static final int myAvgWeekFly=0x7f050083;
-        public static final int myAvgWeekSlider=0x7f050084;
-        public static final int myAvgWeekSome=0x7f050085;
-        public static final int myHighFly=0x7f050071;
-        public static final int myHighSlider=0x7f050072;
-        public static final int myHighSome=0x7f050073;
+        public static final int myAvgHourFly=0x7f050076;
+        public static final int myAvgHourSlider=0x7f050077;
+        public static final int myAvgHourSome=0x7f050078;
+        public static final int myAvgMonthFly=0x7f050080;
+        public static final int myAvgMonthSlider=0x7f050081;
+        public static final int myAvgMonthSome=0x7f050082;
+        public static final int myAvgWeekFly=0x7f05007b;
+        public static final int myAvgWeekSlider=0x7f05007c;
+        public static final int myAvgWeekSome=0x7f05007d;
+        public static final int myHighFly=0x7f050069;
+        public static final int myHighSlider=0x7f05006a;
+        public static final int myHighSome=0x7f05006b;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int oaAvgFly=0x7f050079;
-        public static final int oaAvgSlider=0x7f05007a;
-        public static final int oaAvgSome=0x7f05007b;
-        public static final int oaHighFly=0x7f050075;
-        public static final int oaHighSlider=0x7f050076;
-        public static final int oaHighSome=0x7f050077;
-        public static final int output=0x7f050054;
-        public static final int port=0x7f050052;
+        public static final int oaAvgFly=0x7f050071;
+        public static final int oaAvgSlider=0x7f050072;
+        public static final int oaAvgSome=0x7f050073;
+        public static final int oaHighFly=0x7f05006d;
+        public static final int oaHighSlider=0x7f05006e;
+        public static final int oaHighSome=0x7f05006f;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f050030;
@@ -1183,49 +1179,46 @@ containing a value of this type.
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
-        public static final int skbGame=0x7f05005a;
+        public static final int skbGame=0x7f050052;
         public static final int split_action_bar=0x7f05001e;
-        public static final int stats=0x7f050063;
+        public static final int stats=0x7f05005b;
         public static final int submit_area=0x7f05003a;
-        public static final int tab1=0x7f050056;
-        public static final int tab2=0x7f050057;
-        public static final int tab3=0x7f050058;
         public static final int tabMode=0x7f050002;
         public static final int tableLayout1=0x7f050040;
         public static final int tableRow1=0x7f050041;
         public static final int tableRow2=0x7f050045;
         public static final int tableRow3=0x7f050049;
         public static final int tableRow4=0x7f05004d;
-        public static final int tableRow5=0x7f05007c;
-        public static final int tableRow6=0x7f050081;
-        public static final int tableRow7=0x7f050086;
-        public static final int textView1=0x7f050069;
-        public static final int textView2=0x7f05006d;
-        public static final int textView3=0x7f05006c;
-        public static final int textView4=0x7f05006e;
-        public static final int textView5=0x7f05006f;
+        public static final int tableRow5=0x7f050074;
+        public static final int tableRow6=0x7f050079;
+        public static final int tableRow7=0x7f05007e;
+        public static final int textView1=0x7f050061;
+        public static final int textView2=0x7f050065;
+        public static final int textView3=0x7f050064;
+        public static final int textView4=0x7f050066;
+        public static final int textView5=0x7f050067;
         public static final int title=0x7f05002c;
         public static final int top_action_bar=0x7f050020;
         public static final int txtAvg=0x7f05003e;
-        public static final int txtAvgSlider=0x7f05005c;
-        public static final int txtDisplay=0x7f05005d;
-        public static final int txtFindUser=0x7f05006a;
-        public static final int txtFirstName=0x7f05008b;
-        public static final int txtLastName=0x7f05008c;
-        public static final int txtMyAvgLastHour=0x7f05007d;
-        public static final int txtMyAvgLastMonth=0x7f050087;
-        public static final int txtMyAvgLastWeek=0x7f050082;
+        public static final int txtAvgSlider=0x7f050054;
+        public static final int txtDisplay=0x7f050055;
+        public static final int txtFindUser=0x7f050062;
+        public static final int txtFirstName=0x7f050083;
+        public static final int txtLastName=0x7f050084;
+        public static final int txtMyAvgLastHour=0x7f050075;
+        public static final int txtMyAvgLastMonth=0x7f05007f;
+        public static final int txtMyAvgLastWeek=0x7f05007a;
         public static final int txtNumber=0x7f05003f;
-        public static final int txtNumberSlider=0x7f050059;
-        public static final int txtOverallAvgScore=0x7f050078;
-        public static final int txtOverallHighScore=0x7f050074;
-        public static final int txtTyper=0x7f050065;
-        public static final int txtUserHighScore=0x7f050070;
-        public static final int txtWord=0x7f050064;
-        public static final int um_fragment=0x7f05005e;
+        public static final int txtNumberSlider=0x7f050051;
+        public static final int txtOverallAvgScore=0x7f050070;
+        public static final int txtOverallHighScore=0x7f05006c;
+        public static final int txtTyper=0x7f05005c;
+        public static final int txtUserHighScore=0x7f050068;
+        public static final int txtWord=0x7f05005d;
+        public static final int um_fragment=0x7f050056;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
-        public static final int user=0x7f050062;
+        public static final int user=0x7f05005a;
         public static final int withText=0x7f05000c;
     }
     public static final class integer {
@@ -1279,14 +1272,13 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_fly=0x7f030018;
-        public static final int activity_main=0x7f030019;
-        public static final int activity_slider=0x7f03001a;
-        public static final int activity_splash_screen=0x7f03001b;
-        public static final int activity_typer=0x7f03001c;
-        public static final int fragment_exercise=0x7f03001d;
-        public static final int fragment_stats=0x7f03001e;
-        public static final int fragment_user_mode=0x7f03001f;
-        public static final int support_simple_spinner_dropdown_item=0x7f030020;
+        public static final int activity_slider=0x7f030019;
+        public static final int activity_splash_screen=0x7f03001a;
+        public static final int activity_typer=0x7f03001b;
+        public static final int fragment_exercise=0x7f03001c;
+        public static final int fragment_stats=0x7f03001d;
+        public static final int fragment_user_mode=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
         public static final int fly=0x7f0c0000;
@@ -1338,11 +1330,31 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
+        public static final int avg_last_hour=0x7f0a0024;
+        public static final int avg_last_month=0x7f0a0026;
+        public static final int avg_last_week=0x7f0a0025;
+        public static final int avg_speed=0x7f0a0014;
+        public static final int copy_it=0x7f0a0019;
+        public static final int exercise=0x7f0a0016;
+        public static final int first_name=0x7f0a001e;
+        public static final int fly_tapper=0x7f0a001a;
+        public static final int full_name=0x7f0a001d;
+        public static final int get_stats=0x7f0a0020;
         public static final int hello_world=0x7f0a000e;
+        public static final int high_score=0x7f0a0021;
+        public static final int hyphen=0x7f0a0015;
+        public static final int last_name=0x7f0a001f;
+        public static final int oa_avgscore=0x7f0a0023;
+        public static final int oa_highscore=0x7f0a0022;
+        public static final int ok=0x7f0a0027;
+        public static final int slider_master=0x7f0a001b;
+        public static final int statistics=0x7f0a0018;
         public static final int title_activity_fly=0x7f0a0011;
         public static final int title_activity_slider=0x7f0a0012;
         public static final int title_activity_splash_screen=0x7f0a0010;
         public static final int title_activity_typer=0x7f0a0013;
+        public static final int typer_master=0x7f0a001c;
+        public static final int user_mode=0x7f0a0017;
     }
     public static final class style {
         /** 
@@ -1588,26 +1600,26 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.example.cs175_hw3:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.example.cs175_hw3:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.example.cs175_hw3:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.cs175_hw3:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.example.cs175_hw3:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.example.cs175_hw3:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
-           <tr><td><code>{@link #ActionBar_height com.example.cs175_hw3:height}</code></td><td> Specifies a fixed height.</td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.example.cs175_hw3:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.example.cs175_hw3:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.cs175_hw3:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.example.cs175_hw3:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
+           <tr><td><code>{@link #ActionBar_background edu.sjsu.cs175_hw3:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit edu.sjsu.cs175_hw3:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked edu.sjsu.cs175_hw3:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout edu.sjsu.cs175_hw3:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions edu.sjsu.cs175_hw3:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
+           <tr><td><code>{@link #ActionBar_divider edu.sjsu.cs175_hw3:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
+           <tr><td><code>{@link #ActionBar_height edu.sjsu.cs175_hw3:height}</code></td><td> Specifies a fixed height.</td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout edu.sjsu.cs175_hw3:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_icon edu.sjsu.cs175_hw3:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle edu.sjsu.cs175_hw3:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding edu.sjsu.cs175_hw3:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.example.cs175_hw3:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.example.cs175_hw3:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.example.cs175_hw3:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.example.cs175_hw3:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.example.cs175_hw3:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.cs175_hw3:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionBar_title com.example.cs175_hw3:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.example.cs175_hw3:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionBar_logo edu.sjsu.cs175_hw3:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode edu.sjsu.cs175_hw3:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding edu.sjsu.cs175_hw3:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle edu.sjsu.cs175_hw3:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle edu.sjsu.cs175_hw3:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle edu.sjsu.cs175_hw3:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionBar_title edu.sjsu.cs175_hw3:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle edu.sjsu.cs175_hw3:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -1645,7 +1657,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:background
+          @attr name edu.sjsu.cs175_hw3:background
         */
         public static final int ActionBar_background = 10;
         /**
@@ -1659,7 +1671,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:backgroundSplit
+          @attr name edu.sjsu.cs175_hw3:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
@@ -1673,7 +1685,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:backgroundStacked
+          @attr name edu.sjsu.cs175_hw3:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
@@ -1685,7 +1697,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:customNavigationLayout
+          @attr name edu.sjsu.cs175_hw3:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
@@ -1708,7 +1720,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:displayOptions
+          @attr name edu.sjsu.cs175_hw3:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
@@ -1720,7 +1732,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:divider
+          @attr name edu.sjsu.cs175_hw3:divider
         */
         public static final int ActionBar_divider = 9;
         /**
@@ -1738,7 +1750,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:height
+          @attr name edu.sjsu.cs175_hw3:height
         */
         public static final int ActionBar_height = 1;
         /**
@@ -1750,7 +1762,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:homeLayout
+          @attr name edu.sjsu.cs175_hw3:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
@@ -1762,7 +1774,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:icon
+          @attr name edu.sjsu.cs175_hw3:icon
         */
         public static final int ActionBar_icon = 7;
         /**
@@ -1774,7 +1786,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:indeterminateProgressStyle
+          @attr name edu.sjsu.cs175_hw3:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
@@ -1793,7 +1805,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:itemPadding
+          @attr name edu.sjsu.cs175_hw3:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
@@ -1805,7 +1817,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:logo
+          @attr name edu.sjsu.cs175_hw3:logo
         */
         public static final int ActionBar_logo = 8;
         /**
@@ -1825,7 +1837,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:navigationMode
+          @attr name edu.sjsu.cs175_hw3:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
@@ -1843,7 +1855,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:progressBarPadding
+          @attr name edu.sjsu.cs175_hw3:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
@@ -1855,7 +1867,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:progressBarStyle
+          @attr name edu.sjsu.cs175_hw3:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
@@ -1871,7 +1883,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:subtitle
+          @attr name edu.sjsu.cs175_hw3:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
@@ -1883,7 +1895,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:subtitleTextStyle
+          @attr name edu.sjsu.cs175_hw3:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
@@ -1899,7 +1911,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:title
+          @attr name edu.sjsu.cs175_hw3:title
         */
         public static final int ActionBar_title = 0;
         /**
@@ -1911,7 +1923,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:titleTextStyle
+          @attr name edu.sjsu.cs175_hw3:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /**  Valid LayoutParams for views placed in the action bar as custom views. 
@@ -1942,17 +1954,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowActionBar com.example.cs175_hw3:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowActionBarOverlay com.example.cs175_hw3:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMajor com.example.cs175_hw3:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
+           <tr><td><code>{@link #ActionBarWindow_windowActionBar edu.sjsu.cs175_hw3:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowActionBarOverlay edu.sjsu.cs175_hw3:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMajor edu.sjsu.cs175_hw3:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMinor com.example.cs175_hw3:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
+           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMinor edu.sjsu.cs175_hw3:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMajor com.example.cs175_hw3:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
+           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMajor edu.sjsu.cs175_hw3:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMinor com.example.cs175_hw3:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
+           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMinor edu.sjsu.cs175_hw3:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowSplitActionBar com.example.cs175_hw3:windowSplitActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowSplitActionBar edu.sjsu.cs175_hw3:windowSplitActionBar}</code></td><td></td></tr>
            </table>
            @see #ActionBarWindow_windowActionBar
            @see #ActionBarWindow_windowActionBarOverlay
@@ -1967,7 +1979,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010004, 0x7f010005, 0x7f010006
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.cs175_hw3.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link edu.sjsu.cs175_hw3.R.attr#windowActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -1977,11 +1989,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.cs175_hw3:windowActionBar
+          @attr name edu.sjsu.cs175_hw3:windowActionBar
         */
         public static final int ActionBarWindow_windowActionBar = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.cs175_hw3.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link edu.sjsu.cs175_hw3.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -1991,7 +2003,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.cs175_hw3:windowActionBarOverlay
+          @attr name edu.sjsu.cs175_hw3:windowActionBarOverlay
         */
         public static final int ActionBarWindow_windowActionBarOverlay = 1;
         /**
@@ -2014,7 +2026,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:windowFixedHeightMajor
+          @attr name edu.sjsu.cs175_hw3:windowFixedHeightMajor
         */
         public static final int ActionBarWindow_windowFixedHeightMajor = 6;
         /**
@@ -2037,7 +2049,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:windowFixedHeightMinor
+          @attr name edu.sjsu.cs175_hw3:windowFixedHeightMinor
         */
         public static final int ActionBarWindow_windowFixedHeightMinor = 4;
         /**
@@ -2060,7 +2072,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:windowFixedWidthMajor
+          @attr name edu.sjsu.cs175_hw3:windowFixedWidthMajor
         */
         public static final int ActionBarWindow_windowFixedWidthMajor = 3;
         /**
@@ -2083,11 +2095,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:windowFixedWidthMinor
+          @attr name edu.sjsu.cs175_hw3:windowFixedWidthMinor
         */
         public static final int ActionBarWindow_windowFixedWidthMinor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.cs175_hw3.R.attr#windowSplitActionBar}
+          <p>This symbol is the offset where the {@link edu.sjsu.cs175_hw3.R.attr#windowSplitActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -2097,7 +2109,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.cs175_hw3:windowSplitActionBar
+          @attr name edu.sjsu.cs175_hw3:windowSplitActionBar
         */
         public static final int ActionBarWindow_windowSplitActionBar = 2;
         /** Attributes that can be used with a ActionMenuItemView.
@@ -2130,11 +2142,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.example.cs175_hw3:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.example.cs175_hw3:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_height com.example.cs175_hw3:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.cs175_hw3:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.example.cs175_hw3:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionMode_background edu.sjsu.cs175_hw3:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit edu.sjsu.cs175_hw3:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_height edu.sjsu.cs175_hw3:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle edu.sjsu.cs175_hw3:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle edu.sjsu.cs175_hw3:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2155,7 +2167,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:background
+          @attr name edu.sjsu.cs175_hw3:background
         */
         public static final int ActionMode_background = 3;
         /**
@@ -2169,7 +2181,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:backgroundSplit
+          @attr name edu.sjsu.cs175_hw3:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
@@ -2187,7 +2199,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:height
+          @attr name edu.sjsu.cs175_hw3:height
         */
         public static final int ActionMode_height = 0;
         /**
@@ -2199,7 +2211,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:subtitleTextStyle
+          @attr name edu.sjsu.cs175_hw3:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
@@ -2211,7 +2223,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:titleTextStyle
+          @attr name edu.sjsu.cs175_hw3:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /**  Attrbitutes for a ActivityChooserView. 
@@ -2220,8 +2232,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.cs175_hw3:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.cs175_hw3:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable edu.sjsu.cs175_hw3:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount edu.sjsu.cs175_hw3:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2243,7 +2255,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:expandActivityOverflowButtonDrawable
+          @attr name edu.sjsu.cs175_hw3:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
@@ -2259,7 +2271,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:initialActivityCount
+          @attr name edu.sjsu.cs175_hw3:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a CompatTextView.
@@ -2268,7 +2280,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.example.cs175_hw3:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps edu.sjsu.cs175_hw3:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -2285,7 +2297,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:textAllCaps
+          @attr name edu.sjsu.cs175_hw3:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a LinearLayoutICS.
@@ -2294,9 +2306,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LinearLayoutICS_divider com.example.cs175_hw3:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
-           <tr><td><code>{@link #LinearLayoutICS_dividerPadding com.example.cs175_hw3:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
-           <tr><td><code>{@link #LinearLayoutICS_showDividers com.example.cs175_hw3:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_divider edu.sjsu.cs175_hw3:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_dividerPadding edu.sjsu.cs175_hw3:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_showDividers edu.sjsu.cs175_hw3:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
            </table>
            @see #LinearLayoutICS_divider
            @see #LinearLayoutICS_dividerPadding
@@ -2314,7 +2326,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:divider
+          @attr name edu.sjsu.cs175_hw3:divider
         */
         public static final int LinearLayoutICS_divider = 0;
         /**
@@ -2332,7 +2344,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:dividerPadding
+          @attr name edu.sjsu.cs175_hw3:dividerPadding
         */
         public static final int LinearLayoutICS_dividerPadding = 2;
         /**
@@ -2353,7 +2365,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:showDividers
+          @attr name edu.sjsu.cs175_hw3:showDividers
         */
         public static final int LinearLayoutICS_showDividers = 1;
         /**  Base attributes that are available to all groups. 
@@ -2442,10 +2454,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.example.cs175_hw3:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.example.cs175_hw3:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
+           <tr><td><code>{@link #MenuItem_actionLayout edu.sjsu.cs175_hw3:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass edu.sjsu.cs175_hw3:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.example.cs175_hw3:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
+           <tr><td><code>{@link #MenuItem_actionViewClass edu.sjsu.cs175_hw3:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
              action view.</td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td> The alphabetic shortcut key.</td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td> Whether the item is capable of displaying a check mark.</td></tr>
@@ -2461,7 +2473,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td> The title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td> The condensed title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.example.cs175_hw3:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction edu.sjsu.cs175_hw3:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -2499,7 +2511,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:actionLayout
+          @attr name edu.sjsu.cs175_hw3:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
@@ -2518,7 +2530,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:actionProviderClass
+          @attr name edu.sjsu.cs175_hw3:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
@@ -2536,7 +2548,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:actionViewClass
+          @attr name edu.sjsu.cs175_hw3:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -2692,7 +2704,7 @@ containing a value of this type.
                  larger segment of its container. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:showAsAction
+          @attr name edu.sjsu.cs175_hw3:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -2803,8 +2815,8 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.cs175_hw3:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.example.cs175_hw3:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault edu.sjsu.cs175_hw3:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
+           <tr><td><code>{@link #SearchView_queryHint edu.sjsu.cs175_hw3:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
            </table>
            @see #SearchView_android_imeOptions
            @see #SearchView_android_inputType
@@ -2857,7 +2869,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:iconifiedByDefault
+          @attr name edu.sjsu.cs175_hw3:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 3;
         /**
@@ -2873,7 +2885,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:queryHint
+          @attr name edu.sjsu.cs175_hw3:queryHint
         */
         public static final int SearchView_queryHint = 4;
         /** Attributes that can be used with a Spinner.
@@ -2890,12 +2902,12 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.example.cs175_hw3:disableChildrenWhenDisabled}</code></td><td> Whether this spinner should mark child views as enabled/disabled when
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled edu.sjsu.cs175_hw3:disableChildrenWhenDisabled}</code></td><td> Whether this spinner should mark child views as enabled/disabled when
              the spinner itself is enabled/disabled.</td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.example.cs175_hw3:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
+           <tr><td><code>{@link #Spinner_popupPromptView edu.sjsu.cs175_hw3:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.example.cs175_hw3:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.example.cs175_hw3:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
+           <tr><td><code>{@link #Spinner_prompt edu.sjsu.cs175_hw3:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode edu.sjsu.cs175_hw3:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
            </table>
            @see #Spinner_android_dropDownHorizontalOffset
            @see #Spinner_android_dropDownSelector
@@ -2983,7 +2995,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:disableChildrenWhenDisabled
+          @attr name edu.sjsu.cs175_hw3:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 9;
         /**
@@ -2997,7 +3009,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:popupPromptView
+          @attr name edu.sjsu.cs175_hw3:popupPromptView
         */
         public static final int Spinner_popupPromptView = 8;
         /**
@@ -3009,7 +3021,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:prompt
+          @attr name edu.sjsu.cs175_hw3:prompt
         */
         public static final int Spinner_prompt = 6;
         /**
@@ -3029,7 +3041,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  anchored to the spinner widget itself. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:spinnerMode
+          @attr name edu.sjsu.cs175_hw3:spinnerMode
         */
         public static final int Spinner_spinnerMode = 7;
         /**  These are the standard attributes that make up a complete theme. 
@@ -3038,12 +3050,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.example.cs175_hw3:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.example.cs175_hw3:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.example.cs175_hw3:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.example.cs175_hw3:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.example.cs175_hw3:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.example.cs175_hw3:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle edu.sjsu.cs175_hw3:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight edu.sjsu.cs175_hw3:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator edu.sjsu.cs175_hw3:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme edu.sjsu.cs175_hw3:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth edu.sjsu.cs175_hw3:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle edu.sjsu.cs175_hw3:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
            </table>
            @see #Theme_actionDropDownStyle
            @see #Theme_dropdownListPreferredItemHeight
@@ -3065,7 +3077,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:actionDropDownStyle
+          @attr name edu.sjsu.cs175_hw3:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 0;
         /**
@@ -3083,7 +3095,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:dropdownListPreferredItemHeight
+          @attr name edu.sjsu.cs175_hw3:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 1;
         /**
@@ -3095,7 +3107,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:listChoiceBackgroundIndicator
+          @attr name edu.sjsu.cs175_hw3:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 5;
         /**
@@ -3107,7 +3119,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:panelMenuListTheme
+          @attr name edu.sjsu.cs175_hw3:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 4;
         /**
@@ -3125,7 +3137,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:panelMenuListWidth
+          @attr name edu.sjsu.cs175_hw3:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 3;
         /**
@@ -3137,7 +3149,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:popupMenuStyle
+          @attr name edu.sjsu.cs175_hw3:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 2;
         /** Attributes that can be used with a View.
@@ -3147,8 +3159,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td> Boolean that controls whether a view can take focus.</td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.example.cs175_hw3:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-           <tr><td><code>{@link #View_paddingStart com.example.cs175_hw3:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingEnd edu.sjsu.cs175_hw3:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingStart edu.sjsu.cs175_hw3:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -3186,7 +3198,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:paddingEnd
+          @attr name edu.sjsu.cs175_hw3:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
@@ -3204,7 +3216,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.cs175_hw3:paddingStart
+          @attr name edu.sjsu.cs175_hw3:paddingStart
         */
         public static final int View_paddingStart = 1;
     };

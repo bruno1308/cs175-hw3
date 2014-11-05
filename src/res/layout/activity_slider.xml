@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/sword"
-    tools:context="com.example.cs175_hw3.SliderActivity" >
+    tools:context="edu.sjsu.cs175_hw3.SliderActivity" >
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -23,7 +23,7 @@
             android:id="@+id/txtNumberSlider"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Large Text"
+            android:text=""
             android:textColor="#FF0000"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -45,10 +45,10 @@
         <TextView
             android:id="@+id/txtAvgSlider"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_gravity="top"
             android:layout_weight="0.1"
-            android:text="Average Speed: -" />
+            android:text="@string/avg_speed" />
     </LinearLayout>
 
     <TextView
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/linearLayout2"
         android:layout_below="@+id/linearLayout1"
-        android:text="-"
+        android:text="@string/hyphen"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

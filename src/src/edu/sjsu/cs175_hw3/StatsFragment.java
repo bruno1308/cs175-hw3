@@ -1,10 +1,11 @@
-package com.example.cs175_hw3;
+package edu.sjsu.cs175_hw3;
 
 import java.text.DecimalFormat;
 
+import edu.sjsu.cs175_hw3.R;
+
 import android.app.Fragment;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,7 +14,6 @@ import android.view.View.OnClickListener;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class StatsFragment extends Fragment {
@@ -61,7 +61,6 @@ public class StatsFragment extends Fragment {
 				String[] fly = lines[0].split("\\t");
 				String[] slider = lines[1].split("\\t");
 				String[] typer = lines[2].split("\\t");
-				String to_print = "";
 				DecimalFormat df = new DecimalFormat("0.0#");
 				for (int i = 0; i < fly.length; ++i) {
 					if (fly[i].matches("[-+]?\\d*\\.?\\d+")) {

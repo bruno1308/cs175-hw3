@@ -13,7 +13,7 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Full Name:"
+            android:text="@string/full_name"
             android:textColor="#FF0000" />
 
         <EditText
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Get Statistics" />
+            android:text="@string/get_stats" />
 
     </LinearLayout>
 
@@ -68,21 +68,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="Fly Tapper | " />
+                android:text="@string/fly_tapper" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="Slider Master | " />
+                android:text="@string/slider_master" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="Typer" />
+                android:text="@string/typer_master" />
 
         </TableRow>
 
@@ -96,28 +96,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="High Score" />
+                android:text="@string/high_score" />
 
             <TextView
                 android:id="@+id/myHighFly"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="-" />
+                android:text="@string/hyphen" />
 
             <TextView
                 android:id="@+id/myHighSlider"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="-" />
+                android:text="@string/hyphen" />
 
             <TextView
                 android:id="@+id/myHighSome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="-" />
+                android:text="@string/hyphen" />
 
         </TableRow>
 
@@ -131,27 +131,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="O.A. High Score" />
+                android:text="@string/oa_highscore" />
 
             <TextView
                 android:id="@+id/oaHighFly"
                 android:layout_width="wrap_content"
                 android:textColor="#FF0000"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/hyphen" />
 
             <TextView
                 android:id="@+id/oaHighSlider"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="-" />
+                android:text="@string/hyphen" />
             <TextView
                 android:id="@+id/oaHighSome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#FF0000"
-                android:text="-" />
+                android:text="@string/hyphen" />
 
         </TableRow>
 
@@ -164,26 +164,26 @@
                 android:textColor="#FF0000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="O.A. Avg Score" />
+                android:text="@string/oa_avgscore" />
 
              <TextView
                  android:id="@+id/oaAvgFly"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:textColor="#FF0000"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
              <TextView
                  android:id="@+id/oaAvgSlider"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:textColor="#FF0000"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
              <TextView
                  android:id="@+id/oaAvgSome"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:textColor="#FF0000"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
             
         </TableRow>
         <TableRow
@@ -195,26 +195,26 @@
                 android:layout_width="wrap_content"
                 android:textColor="#FF0000"
                 android:layout_height="wrap_content"
-                android:text="Avg Last Hour" />
+                android:text="@string/avg_last_hour" />
 
              <TextView
                  android:id="@+id/myAvgHourFly"
                  android:textColor="#FF0000"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
              <TextView
                  android:id="@+id/myAvgHourSlider"
                  android:layout_width="wrap_content"
                  android:textColor="#FF0000"
                  android:layout_height="wrap_content"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
              <TextView
                  android:id="@+id/myAvgHourSome"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:textColor="#FF0000"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
             
         </TableRow>
         <TableRow
@@ -226,26 +226,26 @@
                 android:textColor="#FF0000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Avg Last Week" />
+                android:text="@string/avg_last_week" />
 
              <TextView
                  android:id="@+id/myAvgWeekFly"
                  android:layout_width="wrap_content"
                  android:textColor="#FF0000"
                  android:layout_height="wrap_content"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
              <TextView
                  android:id="@+id/myAvgWeekSlider"
                  android:layout_width="wrap_content"
                  android:textColor="#FF0000"
                  android:layout_height="wrap_content"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
              <TextView
                  android:id="@+id/myAvgWeekSome"
                  android:layout_width="wrap_content"
                  android:textColor="#FF0000"
                  android:layout_height="wrap_content"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
             
         </TableRow>
         <TableRow
@@ -257,7 +257,7 @@
                 android:textColor="#FF0000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Avg Last Month" />
+                android:text="@string/avg_last_month" />
 
              <TextView
                  android:id="@+id/myAvgMonthFly"
@@ -265,20 +265,20 @@
                  android:layout_height="wrap_content"
                  android:textColor="#FF0000"
                  
-                 android:text="-" />
+                 android:text="@string/hyphen" />
 
              <TextView
                  android:id="@+id/myAvgMonthSlider"
                  android:layout_width="wrap_content"
                  android:textColor="#FF0000"
                  android:layout_height="wrap_content"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
              <TextView
                  android:id="@+id/myAvgMonthSome"
                  android:layout_width="wrap_content"
                  android:textColor="#FF0000"
                  android:layout_height="wrap_content"
-                 android:text="-" />
+                 android:text="@string/hyphen" />
             
         </TableRow>
     </TableLayout>

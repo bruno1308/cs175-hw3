@@ -9,13 +9,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:background="@drawable/fly"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.cs175_hw3.FlyActivity" >
+    tools:context="edu.sjsu.cs175_hw3.FlyActivity" >
 
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1.08"
+        android:layout_height="0dp"
+        android:layout_weight="0.59"
         android:gravity="center"
         android:orientation="vertical" >
 
@@ -25,15 +25,18 @@
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:layout_weight="0.1"
-            android:text="Average Speed: -" />
+            android:text="@string/avg_speed"
+            android:textSize="15sp"
+            android:textColor="#FF0000" />
 
         <TextView
             android:id="@+id/txtNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_weight="0.13"
-            android:text="Large Text"
+            
+            android:textSize="30sp"
+            android:text="@string/hyphen"
             android:textColor="#FF0000"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -42,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_weight="0.16" >
+            android:layout_weight="0.02" >
 
             <TableRow
                 android:id="@+id/tableRow1"
@@ -56,6 +59,13 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="ButtonOnClick"
+					android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="1" />
 
                 <Button
@@ -64,13 +74,28 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="2" />
 
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:onClick="ButtonOnClick"
+                    
                     android:text="3" />
             </TableRow>
 
@@ -84,6 +109,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="4" />
 
                 <Button
@@ -91,6 +123,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="5" />
 
                 <Button
@@ -99,6 +138,13 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="6" />
 
             </TableRow>
@@ -113,6 +159,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="7" />
 
                 <Button
@@ -120,6 +173,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="8" />
 
                 <Button
@@ -127,6 +187,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="9" />
             </TableRow>
 
@@ -140,6 +207,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="10" />
 
                 <Button
@@ -147,6 +221,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="11" />
 
                 <Button
@@ -154,6 +235,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="ButtonOnClick"
+                    android:textColor="#FFFF00"
+					android:textSize="30sp"
+					android:background="@drawable/buttonshape"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="0"
+					android:shadowRadius="22"
                     android:text="12" />
             </TableRow>
         </TableLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cs175_hw3"
+    package="edu.sjsu.cs175_hw3"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,13 +17,13 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="edu.sjsu.cs175_hw3.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplashScreen"
+            android:name="edu.sjsu.cs175_hw3.SplashScreen"
             android:label="@string/title_activity_splash_screen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,15 +32,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FlyActivity"
+            android:name="edu.sjsu.cs175_hw3.FlyActivity"
             android:label="@string/title_activity_fly" >
         </activity>
         <activity
-            android:name=".SliderActivity"
+            android:name="edu.sjsu.cs175_hw3.SliderActivity"
             android:label="@string/title_activity_slider" >
         </activity>
         <activity
-            android:name=".TyperActivity"
+            android:name="edu.sjsu.cs175_hw3.TyperActivity"
             android:label="@string/title_activity_typer" >
         </activity>
     </application>

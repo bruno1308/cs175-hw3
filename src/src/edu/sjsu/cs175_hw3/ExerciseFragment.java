@@ -1,15 +1,15 @@
-package com.example.cs175_hw3;
+package edu.sjsu.cs175_hw3;
+
+import edu.sjsu.cs175_hw3.R;
 
 import android.app.Fragment;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 
 public class ExerciseFragment extends Fragment {
 	public static final String PREFS_NAME = "MyPrefsFile";

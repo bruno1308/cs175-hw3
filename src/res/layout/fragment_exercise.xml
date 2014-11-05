@@ -2,32 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical" >
-
+  
         <Button
             android:id="@+id/btnFly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fly Tapper" />
+            android:text="@string/fly_tapper" />
 
         <Button
             android:id="@+id/btnSlider"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Slider Master" />
+            android:text="@string/slider_master" />
 
         <Button
             android:id="@+id/btnTyper"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Typer Master" />
+            android:text="@string/typer_master" />
 
-    </LinearLayout>
-
+  
 </LinearLayout>

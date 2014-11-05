@@ -1,7 +1,9 @@
-package com.example.cs175_hw3;
+package edu.sjsu.cs175_hw3;
 
 import java.util.Date;
 import java.util.Random;
+
+import edu.sjsu.cs175_hw3.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;

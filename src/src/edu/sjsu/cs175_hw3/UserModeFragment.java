@@ -1,4 +1,6 @@
-package com.example.cs175_hw3;
+package edu.sjsu.cs175_hw3;
+
+import edu.sjsu.cs175_hw3.R;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -53,13 +55,17 @@ public class UserModeFragment extends Fragment {
 
 				// Tell the server that user was registered
 				String msg = "register:" + first_name + " " + last_name;
-				Connection.response = "";
+				Connection.response = " ";
 				Connection.queue.add(msg);
 				while (Connection.sync == 0 || Connection.response.equals("")) {
 					// Waiting for server's response
 				}
-				String response = "";
-				if (Connection.response.equals("Sorry\r\n")) {
+				String response =Connection.response;
+				while(!response.equals("Okay") && !response.equals("Sorry")){
+					 response =Connection.response;
+					response = response.replaceAll("[\\r\\n]","").trim();
+				}
+				if (response.equals("Sorry")) {
 					// User duplicated
 					response = "User already exists!";
 

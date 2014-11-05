@@ -1,14 +1,14 @@
-package com.example.cs175_hw3;
+package edu.sjsu.cs175_hw3;
 
 import java.util.Random;
+
+import edu.sjsu.cs175_hw3.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,7 +22,7 @@ public class SplashScreen extends ActionBarActivity {
 	Button user;
 	Button stats;
 
-	Connection c = new Connection("54.86.35.196", 7890);
+	Connection c = new Connection("54.173.5.18", 7890);
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,29 +48,40 @@ public class SplashScreen extends ActionBarActivity {
 			exercise.setEnabled(false);
 			startUserMode(findViewById(android.R.id.content));
 		} else {
-			// If they do exist, display inspirational message
-			while (Connection.response.equals("Fingercise Server\n")) {
-				// Flushing out initial message
+			// If they do exist, display inspiration message
+			while (!Connection.response.equals("Fingercise Server\n")) {
+				//System.out.println("Flushing out");
 			}
 			// Get statistics to show inspiration message
 			Connection.queue.add("statistics:" + first_name + " " + last_name);
 			String response = "";
 			response = Connection.response;
-			while (Connection.sync == 0 || Connection.response.equals("")
-					|| Connection.response.equals("Fingercise Server")) {
-				// Wait for the server to answer
+			while (Connection.sync == 0) {
+				System.out.println("Sending request: " + response);
+				response = Connection.response;
 			}
 			response = Connection.response;
-			System.out.println("Response is " + response);
+			//System.out.println("Response is " + response);
+			response="";
+			
+			String lines[] = null;
+			
+			while(lines == null || lines.length <5){
+				
+				 lines = Connection.response.split("\\r?\\n");
+				 System.out.println(lines.length);
+			}
+			System.out.println(lines.length);
 			// Got response from server
-			Connection.response = "";
+			//Connection.response = "";
+			//response = Connection.response;
 
 			// Split it into 3 lines
-			String lines[] = response.split("\\r?\\n");
+			//String lines[] = response.split("\\r?\\n");
 			// Now split between values
-			String[] fly = lines[0].split("\\t");
-			String[] slider = lines[1].split("\\t");
-			String[] typer = lines[2].split("\\t");
+			String[] fly = lines[1].split("\\t");
+			String[] slider = lines[2].split("\\t");
+			String[] typer = lines[3].split("\\t");
 			Random r = new Random();
 			int which = r.nextInt(3);
 			String msg = "";
@@ -183,5 +194,7 @@ public class SplashScreen extends ActionBarActivity {
 		}
 		transaction.commit();
 	}
+	
+	
 
 }

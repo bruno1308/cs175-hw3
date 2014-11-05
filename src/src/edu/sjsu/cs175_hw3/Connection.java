@@ -1,10 +1,8 @@
-package com.example.cs175_hw3;
+package edu.sjsu.cs175_hw3;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -23,7 +21,7 @@ public final class Connection extends AsyncTask<String, Void, String> {
 	public final String IP;
 	public final int PORT;
 	static String  response="";
-	public static int sync=1;
+	public static int sync=-1;
 	String question;
 	Socket socket = null;
 	PrintWriter writer = null;
@@ -33,7 +31,7 @@ public final class Connection extends AsyncTask<String, Void, String> {
 	Connection(String addr, int port){
 		//If you will try in your own network, ignore the parameters and set the IP
 		//and port manually HERE, This is my server that MIGHT be off 
-		   this.IP = "54.86.35.196";
+		   this.IP = "54.173.5.18";
 		   this.PORT = 7890;	         
 	         
 	}
@@ -50,13 +48,13 @@ public final class Connection extends AsyncTask<String, Void, String> {
 	 	        writer = new PrintWriter(socket.getOutputStream(),true);
 	 	        reader = new BufferedReader(
     		            new InputStreamReader(socket.getInputStream()));
-	 	        String fromUser="" ,fromServer ="";
+	 	        String fromUser="" ;
 	 	       CharBuffer cb = CharBuffer.allocate(1000);
 	 	        while(true){
 	 	        		try {
 	 	        			//sync synchronizes the network to tell when the
 	 	        			//reader is ready to be read
-	 	        			sync =1;
+	 	        			
 	 	        			while(reader.ready()){
 	 	        				/*Server sent us something!
 	 	        				sync = 0 means we are busy reading,
@@ -65,7 +63,6 @@ public final class Connection extends AsyncTask<String, Void, String> {
 	 	        				reader.read(cb);
 	 	        				cb.flip();
 	 	        				String msg = cb.toString();
-								fromServer = msg;
 								Log.i("Server", msg);
 								
 								response = response+msg;
@@ -79,6 +76,7 @@ public final class Connection extends AsyncTask<String, Void, String> {
 				 	        	 writer.println(fromUser);
 						         System.out.println("Request sent!");	
 							}	
+							sync =1;
 							} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
